@@ -14,7 +14,7 @@ public class Main {
                 "Good morning! (megusta) (coffee)",
                 "Olympics are starting soon; http://www.nbcolympics.com",
                 "@bob @john (success) such a cool feature; https://twitter.com/jdorfman/status/430511497475670016",
-                "@Chris Good morning! chris@gmail.com (megusta) (coffee) (thisemoticonistoolong) http://www.google.com/photos - ww.notvalid.com - www.internet.com"
+                "@Chris Good morning! chris@gmail.com (megusta) (coffee) (thisemoticonistoolong) https://www.hipchat.com/downloads - ww.notvalid.com - www.internet.com"
         };
 
         Main.process(testStrings);
