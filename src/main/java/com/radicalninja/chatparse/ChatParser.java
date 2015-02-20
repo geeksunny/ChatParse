@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class ChatParser {
 
     private static final String PATTERN =
-            "(?<mentions>\\B@[a-zA-Z]+)|(?<emoticons>\\([a-zA-Z]{1,15}\\))|(?<links>(?:http:[/]{2}|www.)(?:[a-zA-Z0-9/.~])+)";
+            "(?<mentions>\\B@[a-zA-Z]+)|(?<emoticons>\\([a-zA-Z]{1,15}\\))|(?<links>(?:http[s]?:[/]{2}|www.)(?:[a-zA-Z0-9/.~])+)";
 
     private Pattern mPattern = Pattern.compile(PATTERN);
 
