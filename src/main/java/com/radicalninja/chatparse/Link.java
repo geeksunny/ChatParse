@@ -20,6 +20,9 @@ public class Link {
 
     public static Link fromUrl(String url) {
         try {
+            if (url.startsWith("www")) {
+                url = "http://"+url;
+            }
             return new Link(url, Link.getPageTitle(new URL(url)));
         } catch (MalformedURLException e) {
             Main.log("URL is malformed! ("+url+")");
