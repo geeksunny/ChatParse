@@ -30,7 +30,7 @@ public class ChatContents {
         if (mentions == null) {
             mentions = new ArrayList<String>();
         }
-        mentions.add(mention);
+        mentions.add(mention.replace("@", ""));
     }
 
     public List<String> getEmoticons() {
@@ -45,7 +45,7 @@ public class ChatContents {
         if (emoticons == null) {
             emoticons = new ArrayList<String>();
         }
-        emoticons.add(emoticon);
+        emoticons.add(emoticon.replaceAll("[\\(\\)]", ""));
     }
 
     public List<Link> getLinks() {
