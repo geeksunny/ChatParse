@@ -5,7 +5,6 @@ ChatParse is written in Java as a command line application.
 Requirements
 -------------------
 * Java 7
-* Gradle
 
 Dependencies
 -------------------
